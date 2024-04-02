@@ -1,0 +1,18 @@
+{
+  "name": "api-check",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun ./src/http/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.0.2",
+    "elysia": "^1.0.11"
+  }
+}
